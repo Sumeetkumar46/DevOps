@@ -38,7 +38,7 @@ app.get('/todo', function (req, res) {
         if (req.body.newtodo != '') {
             todolist.push(newTodo);
         }
-        res.redirect('/todo');
+        res.redirect('/sample');
     })
 
     /* Deletes an item from the to do list */
